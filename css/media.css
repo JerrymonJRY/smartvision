@@ -1,0 +1,163 @@
+
+@media screen and (min-width: 1024px) {
+  
+}
+ 
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+   
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+   .vectorbackground
+   {
+    width: 96%;
+    height: 300px;
+    margin-left: 3px;
+
+   }
+
+   .header-carousel .owl-nav {
+    position: absolute;
+    width: 293px;
+    height: 40px;
+    bottom: 116px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.header-carousel .owl-dots {
+    bottom: 2px;
+
+}
+
+   .carousel-item
+   {
+    top: 39px;
+   }
+   .bannerh6
+   {
+    display: none;
+   }
+
+   .bannercontainerbackground
+   {
+    left: 11px;
+    width: 95%;
+    height: auto;
+  
+   }
+   .subheaders
+   {
+   display: none;
+   }
+   .centerbackground
+   {
+    padding-top: 364px;
+    padding-bottom: 100px;
+
+   }
+   .serviceicons
+   {
+    margin-bottom: 20px;
+   }
+   .navbar .nav-link::after {
+   display: none;
+  }
+  .mapwidth
+  {
+    width: 50% !important;
+  }
+
+  .aboutbanner
+  {
+    height: auto;
+  }
+
+  .aboutbackground
+  {
+    height: auto;
+    left: 0;
+    margin-top: 20px;
+  }
+  .aboutsbackground
+  {
+    padding-top: 265px;
+  }
+  .video
+  {
+    padding-top: 100px;
+  }
+
+  .videocontent
+  {
+    padding-top: 50px;
+  }
+  .ourproductsbanner
+  {
+    height: auto;
+  }
+  .assetsbannerone
+  {
+    height: auto;
+  }
+  .assetsbannertwo
+  {
+    height: auto;
+  }
+
+  .assetsbannerthree
+  {
+    height: auto;
+  }
+  .ourproducts
+  {
+    padding-top: 100px !important;
+  }
+  .addressbackground
+  {
+    background: #ffff;
+  }
+  
+
+.navbar-light .navbar-toggler {
+    color: rgb(215 17 17 / 0%);
+    border-color: rgb(215 17 17 / 0%);
+}
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+  
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+    and (max-device-width: 640px) {
+   
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) 
+    and (device-width: 320px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+   
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) 
+    and (min-device-width: 375px) 
+    and (-webkit-min-device-pixel-ratio: 3) {
+   
+};
